@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    
+}
+
+#image {
+    display: flex;
+    align-items: center;
+}
+
+#image img {
+    width: 100px;
+    margin-right: 15px;
+}
+
+#image p {
+    font-size: 14px;
+    color: #666;
+}
+
+#image h3 {
+    color: #e63946;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    gap: 15px;
+}
+
+.button button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+.button button:hover {
+    color: #e63946;
+}
+
+#icon {
+    font-size: 20px;
+}
+
+#icon i {
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#icon i:hover {
+    color: #e63946;
+}
+
+#first {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sec {
+    margin-bottom: 20px;
+}
+
+.sec h2 {
+    font-size: 28px;
+    color: #222;
+}
+
+.sec a {
+    text-decoration: none;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.three img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.three h2 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.three p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.three button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.three button:hover {
+    background-color: #d62839;
+}
+
+.four {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.four h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.four p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#last {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #222;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.six {
+    margin: 20px;
+}

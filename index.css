@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff6600;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 5px 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#menu-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.category {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.category img {
+    width: 100px;
+    height: 100px;
+}
+
+.category a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.dishes h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #111010;
+    margin-bottom: 20px;
+}
+
+.dishes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.dish {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    
+}
+.dish img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dish h3 {
+    margin: 10px 0;
+    color: #ff6600;
+    font-size: 1.2em;
+}
+
+.dish p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .menu-categories, .dishes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish {
+        width: 90%;
+    }
+}
